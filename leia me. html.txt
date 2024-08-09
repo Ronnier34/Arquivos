@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloco de Notas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo ao meu Bloco de Notas!</h1>
+        <p>Eu sou Ronnier do 1º ano A. Gosto de estudar, ler livros e conversar.</p>
+        <textarea id="noteArea" placeholder="Digite suas anotações aqui..."></textarea>
+        <div class="buttons">
+            <button onclick="saveNote()">Salvar</button>
+            <button onclick="loadNote()">Carregar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
